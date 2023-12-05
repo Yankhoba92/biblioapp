@@ -1,0 +1,26 @@
+{
+    "name": "yankhoba/biblioapp",
+    "autoload": {
+        "psr-4": {
+            "Yankhoba\\Biblioapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yankhoba",
+            "email": "bagayoko.yan@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^5.3",
+        "openai-php/client": "^0.8.0",
+        "symfony/http-client": "^7.0",
+        "nyholm/psr7": "^1.8",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
